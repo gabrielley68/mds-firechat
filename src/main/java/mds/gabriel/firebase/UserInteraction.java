@@ -1,5 +1,6 @@
 package mds.gabriel.firebase;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 public class UserInteraction {
@@ -25,6 +26,9 @@ public class UserInteraction {
 			switch(input.split(" ")[0]) {
 				case "/log":
 					this.connectUser(input);
+					break;
+				case "/show_users":
+					this.showUsers();
 					break;
 				default:
 					this.help();
@@ -56,9 +60,24 @@ public class UserInteraction {
 		System.out.println("Bienvenue " + this.currentUser + " !");
 	}
 	
+	private void showUsers() {
+		ArrayList<User> users = this.dbManager.getUsers();
+		
+		if(users.isEmpty()) {
+			System.out.println("Aucun utilisateur connecté");
+		}
+		else {
+			System.out.println("Liste des utilisateurs connectés");
+			for(User user : users) {
+				System.out.println(" - " + user);
+			}
+		}
+	}
+	
 	private void help() {
 		System.out.println("Voici les commandes disponibles :");
 		
 		System.out.println("  /log [username] : se connecte avec le pseudo [username]");
+		System.out.println("  /show_users : liste les utilisateurs connectés");
 	}
 }
