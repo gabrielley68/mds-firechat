@@ -4,6 +4,8 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.ExecutionException;
 
 import com.google.api.core.SettableApiFuture;
@@ -20,6 +22,41 @@ import com.google.firebase.database.ValueEventListener;
 public class FireBaseManager {
 
 	ArrayList<User> users = new ArrayList<User>();
+	ArrayList<Room> rooms = new ArrayList<Room>();
+	
+	private ChildEventListener printMsgListener = new ChildEventListener() {
+
+		@Override
+		public void onChildAdded(DataSnapshot snapshot, String previousChildName) {
+			String message = snapshot.getValue(String.class);
+			System.out.println(message);
+		}
+
+		@Override
+		public void onChildChanged(DataSnapshot snapshot, String previousChildName) {
+			// TODO Auto-generated method stub
+			
+		}
+
+		@Override
+		public void onChildRemoved(DataSnapshot snapshot) {
+			// TODO Auto-generated method stub
+			
+		}
+
+		@Override
+		public void onChildMoved(DataSnapshot snapshot, String previousChildName) {
+			// TODO Auto-generated method stub
+			
+		}
+
+		@Override
+		public void onCancelled(DatabaseError error) {
+			// TODO Auto-generated method stub
+			
+		}
+		
+	};
 	
 	public FireBaseManager() {
 		FileInputStream serviceAccount = null;
@@ -51,6 +88,7 @@ public class FireBaseManager {
 	
 	private void attachEvents() {
 		this.attachUsersEvent();
+		this.attachRoomsEvent();
 	}
 	
 	private void attachUsersEvent() {
@@ -130,6 +168,64 @@ public class FireBaseManager {
 		});
 	}
 	
+	private void attachRoomsEvent() {
+		DatabaseReference roomsRef = this.getDbReference().child("currentRooms");
+		
+		roomsRef.addListenerForSingleValueEvent(new ValueEventListener() {
+
+			@Override
+			public void onDataChange(DataSnapshot snapshot) {
+				for(DataSnapshot roomSnapshot : snapshot.getChildren()) {
+					Room room = roomSnapshot.getValue(Room.class);
+					room.setKey(roomSnapshot.getKey());
+					rooms.add(room);
+				}
+			}
+
+			@Override
+			public void onCancelled(DatabaseError error) {
+				System.err.println(error.getMessage());
+			}
+			
+		});
+		
+		roomsRef.addChildEventListener(new ChildEventListener() {
+
+			@Override
+			public void onChildAdded(DataSnapshot snapshot, String previousChildName) {
+				Room newRoom = Room.convertSnapshotToRoom(snapshot);
+				newRoom.setKey(snapshot.getKey());
+				if(!rooms.contains(newRoom)) {
+					rooms.add(newRoom);
+				}
+			}
+
+			@Override
+			public void onChildChanged(DataSnapshot snapshot, String previousChildName) {
+				Room room = Room.convertSnapshotToRoom(snapshot);
+				rooms.remove(room);
+				rooms.add(room);
+			}
+
+			@Override
+			public void onChildRemoved(DataSnapshot snapshot) {
+				Room room = Room.convertSnapshotToRoom(snapshot);
+				rooms.remove(room);
+			}
+
+			@Override
+			public void onChildMoved(DataSnapshot snapshot, String previousChildName) {
+				// TODO Auto-generated method stub
+				
+			}
+
+			@Override
+			public void onCancelled(DatabaseError error) {
+				System.err.print(error.getMessage());
+			}
+		});
+	}
+	
 	public String addUser(User user) {
 		DatabaseReference usersRef = this.getDbReference().child("currentUsers");
 		DatabaseReference pushedUserRef = usersRef.push();
@@ -137,8 +233,79 @@ public class FireBaseManager {
 		return pushedUserRef.getKey();
 	}
 	
+	public void removeUser(User user) {
+		DatabaseReference usersRef = this.getDbReference().child("currentUsers");
+		Map<String, Object> update = new HashMap<>();
+		update.put(user.getKey(), null);
+		usersRef.updateChildrenAsync(update);
+	}
+	
 	public ArrayList<User> getUsers() {
 		return this.users;
+	}
+
+	public String addRoom(Room room) {
+		DatabaseReference roomsRef = this.getDbReference().child("currentRooms");
+		DatabaseReference pushedRoomRef = roomsRef.push();
+		pushedRoomRef.setValueAsync(room);
+		return pushedRoomRef.getKey();
+	}
+	
+	public Room getRoom(String name) {
+		for(Room room : rooms) {
+			if(room.getName().equals(name)) {
+				return room;
+			}
+		}
+		return null;
+	}
+
+	public void addUserToRoom(Room room, User user) {
+		DatabaseReference roomsRef = this.getDbReference().child("currentRooms");
+		room.users.add(user.getKey());
+		
+		Map<String, Object> update = new HashMap<>();
+		update.put(room.getKey(), room);
+		roomsRef.updateChildrenAsync(update);
+		
+		
+	}
+	
+	public void sendMsg(String message, Room room) {
+		DatabaseReference roomsRef = this.getDbReference().child("currentRooms");
+		room.messages.add(message);
+		
+		Map<String, Object> update = new HashMap<>();
+		update.put(room.getKey(), room);
+		roomsRef.updateChildrenAsync(update);
+	}
+
+	public void removeUserFromRoom(Room room, User user) {
+		room.users.remove(user.getKey());
+		DatabaseReference roomsRef = this.getDbReference().child("currentRooms");
+
+		Map<String, Object> update = new HashMap<>();
+		String key = room.getKey();
+		if(room.users.isEmpty()) {
+			room = null;
+		}
+		update.put(key, room);
+		roomsRef.updateChildrenAsync(update);
+	}
+	
+	public void addMsgListener(Room room) {
+		DatabaseReference roomsRef = this.getDbReference().child("currentRooms");
+		roomsRef.child(room.getKey() + "/messages").addChildEventListener(this.printMsgListener);
+	}
+	
+	public void removeMsgListener(Room room) {
+		DatabaseReference roomsRef = this.getDbReference().child("currentRooms");
+		roomsRef.child(room.getKey() + "/messages").removeEventListener(this.printMsgListener);
+
+	}
+	
+	public ArrayList<Room> getRooms(){
+		return this.rooms;
 	}
 	
 }
