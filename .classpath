@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="bin/main" path="src/main/java">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="bin/main" path="src/main/resources">
+		<attributes>
+			<attribute name="gradle_scope" value="main"/>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="bin/test" path="src/test/java">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle_scope" value="test"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="src" output="bin/test" path="src/test/resources">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle_scope" value="test"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-simple/1.7.25/8dacf9514f0c707cbbcdd6fd699e8940d42fb54e/slf4j-simple-1.7.25.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-simple/1.7.25/af3cd3ad1ea4b08b27b54f12529b4bf343bc5ca1/slf4j-simple-1.7.25-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-admin/6.13.0/23260b61793709a7439dab11d3d74fb4f4024ba3/firebase-admin-6.13.0.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.firebase/firebase-admin/6.13.0/2dcd48b170a2518305fcdddc2c978636f7c96546/firebase-admin-6.13.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.cloud/google-cloud-firestore/1.31.0/9c6bc832e21e7d7a93c0786cb4dd48cdac1675d6/google-cloud-firestore-1.31.0.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.cloud/google-cloud-firestore/1.31.0/40033019efde68d0bd5f87a33152f475161f2676/google-cloud-firestore-1.31.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.cloud/google-cloud-core-grpc/1.91.3/74711c94356587fd2fc8ead1272cffab25257aba/google-cloud-core-grpc-1.91.3.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.cloud/google-cloud-core-grpc/1.91.3/491cc645085ad9ebf10b5e34ad19680a8c19088a/google-cloud-core-grpc-1.91.3-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/proto-google-cloud-firestore-admin-v1/1.31.0/def08d0a296bfd2dc336c6e47ec6e0ba87e72956/proto-google-cloud-firestore-admin-v1-1.31.0.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/proto-google-cloud-firestore-admin-v1/1.31.0/f0d9ab94500311db074b80336960ae3ab10fd4c3/proto-google-cloud-firestore-admin-v1-1.31.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/proto-google-cloud-firestore-v1/1.31.0/5a5d463dad9b082d7e208c6c1c0dca1f2ea7092f/proto-google-cloud-firestore-v1-1.31.0.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/proto-google-cloud-firestore-v1/1.31.0/6d112d435433b0e3314974cfd93cbf3e1badd246/proto-google-cloud-firestore-v1-1.31.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/proto-google-cloud-firestore-v1beta1/0.84.0/8f1e375d414d20f9699078ef6ed555eee226a575/proto-google-cloud-firestore-v1beta1-0.84.0.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/proto-google-cloud-firestore-v1beta1/0.84.0/f68d19972636e2bb589b1248828bd7d7a1736952/proto-google-cloud-firestore-v1beta1-0.84.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.cloud/google-cloud-storage/1.91.0/73d7d28a8111ee318b5f4c62fcdb23f57a1066d3/google-cloud-storage-1.91.0.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.cloud/google-cloud-storage/1.91.0/66a5f8fdc1b816970fed6d18623e1ebcbc8e4e15/google-cloud-storage-1.91.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.cloud/google-cloud-core-http/1.90.0/9098b197d4f84aa79346d7489c44a169066b3a0b/google-cloud-core-http-1.90.0.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.cloud/google-cloud-core-http/1.90.0/2d5bf320a197a249179c2746015a17bdd7d12252/google-cloud-core-http-1.90.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.api/gax-httpjson/0.65.1/b3b2ce027a50cef2057195876dcb1a577cfe37fa/gax-httpjson-0.65.1.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.api/gax-httpjson/0.65.1/23fa99c7a7f74f522899d77db9e74fe471d1a382/gax-httpjson-0.65.1-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.cloud/google-cloud-core/1.91.3/66b11b43a9e039226d0554bd0ba442ba72c54a03/google-cloud-core-1.91.3.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.cloud/google-cloud-core/1.91.3/309e47b77e1ea75390fb157a9cdffd76120db2b7/google-cloud-core-1.91.3-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.api/gax-grpc/1.49.1/a8e740a1f946b8444a4fc840fd35154d6e1ef480/gax-grpc-1.49.1.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.api/gax-grpc/1.49.1/de04ca2fc237509afabdeec46680f268179edaa8/gax-grpc-1.49.1-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.api/gax/1.49.1/e3feb862604e363f790d3f070546d3aca9338311/gax-1.49.1.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.api/gax/1.49.1/8332e37a3041ae68177c0587d8e7349a4eb297b9/gax-1.49.1-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/proto-google-iam-v1/0.13.0/ed3d62b64aa23a3decf324c8988eb4aae9f36e94/proto-google-iam-v1-0.13.0.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/proto-google-iam-v1/0.13.0/f8e570b163223aeea8902368d55e611323e62884/proto-google-iam-v1-0.13.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.api/api-common/1.8.1/e89befb19b08ad84b262b2f226ab79aefcaa9d7f/api-common-1.8.1.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.api/api-common/1.8.1/1823b92949fff86bcc852e80f3608b6735810135/api-common-1.8.1-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client-gson/1.30.1/491038f3e25ff3b6e18e0daeecd62d0e5fb60928/google-api-client-gson-1.30.1.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client-gson/1.30.1/a94770256e9fd0f671d611bd7a3b8ba0b1ef829a/google-api-client-gson-1.30.1-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.apis/google-api-services-storage/v1-rev20190624-1.30.1/965c7c4f92f4a4058b6759505c6f520fb0033832/google-api-services-storage-v1-rev20190624-1.30.1.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.apis/google-api-services-storage/v1-rev20190624-1.30.1/fdd43f945ba90310aba8659b67e34e97ff0e90b/google-api-services-storage-v1-rev20190624-1.30.1-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client/1.30.2/10e8b4cd264d486d905f95c4ed4b6df177f0787b/google-api-client-1.30.2.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.api-client/google-api-client/1.30.2/500c7f656ed9ce160bfab21868c189f4afe1adfd/google-api-client-1.30.2-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-gson/1.30.1/bfdc4413856777907d2a45047231594b96d22ef4/google-http-client-gson-1.30.1.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-gson/1.30.1/beaaae6994900176f8956464142765c7b6ccd08f/google-http-client-gson-1.30.1-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-appengine/1.31.0/8e9f1aa1e843727351b14ffce2bda4416363b67a/google-http-client-appengine-1.31.0.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-appengine/1.31.0/638d9d785b2032483ba1f1a47e304e20b5687f21/google-http-client-appengine-1.31.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client/1.30.1/5308d9c46802a0d5d82a1a93f7cec35334bc0d91/google-oauth-client-1.30.1.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.oauth-client/google-oauth-client/1.30.1/91f5c772ef98db9d0fc5c4f62b714d72c0ad200e/google-oauth-client-1.30.1-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-alts/1.23.0/bfa3dc430f7877abf11ea0da9d596dcd75eec61d/grpc-alts-1.23.0.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-alts/1.23.0/6e2c9822817695dff80b170f98e236eef71e4d20/grpc-alts-1.23.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.auth/google-auth-library-oauth2-http/0.18.0/47d7a326e5de135defea328baafdf2f29de733d1/google-auth-library-oauth2-http-0.18.0.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.auth/google-auth-library-oauth2-http/0.18.0/b87e1cd0261c0b93b4e5173cb671aa1c7c2a2985/google-auth-library-oauth2-http-0.18.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-jackson2/1.32.1/9bae3bc3b295fa5f281f105e4ab41094f06e83d8/google-http-client-jackson2-1.32.1.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client-jackson2/1.32.1/dbfe3da57918dbf7f26e07a5633d1e56fba5889f/google-http-client-jackson2-1.32.1-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.32.1/cb8a04bb17bf49c388083449cffa25de7765ec76/google-http-client-1.32.1.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.http-client/google-http-client/1.32.1/259f006dd5a1740c66294b4271b458f5c59b03b7/google-http-client-1.32.1-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.opencensus/opencensus-contrib-grpc-util/0.24.0/1ac2f0c1a02c7ec0cd244e59228f687a90dfddab/opencensus-contrib-grpc-util-0.24.0.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.opencensus/opencensus-contrib-grpc-util/0.24.0/5a7808f9d7e4fc5386f799c7f5c16744ab79aca1/opencensus-contrib-grpc-util-0.24.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-netty-shaded/1.23.0/29c6b73d13098a7e0876cce325b3cd6204ed3297/grpc-netty-shaded-1.23.0.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-netty-shaded/1.23.0/5a3b2c177c77105d36e698edec9fdf9c43f5f29a/grpc-netty-shaded-1.23.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-grpclb/1.23.0/99e6dad4cb8f00ad17e01c25ff5a14a933c1b9ba/grpc-grpclb-1.23.0.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-grpclb/1.23.0/981bcf25052c277efbc965d987857d4c4aca39f5/grpc-grpclb-1.23.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-core/1.24.1/16abedf794f6597f3839b452d1b32438a53a6781/grpc-core-1.24.1.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-core/1.24.1/fb5d30f462d244d208a71c266fb9db5eabf01f21/grpc-core-1.24.1-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-stub/1.23.0/2e9e6890a7e8402a9b715ce1fad0d1827e733e49/grpc-stub-1.23.0.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-stub/1.23.0/366d5b189d544f07bca201e53360877354a66374/grpc-stub-1.23.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-auth/1.23.0/19d71f19653d2cc786498819557431312d0dbf2d/grpc-auth-1.23.0.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-auth/1.23.0/80c38b0bd4915f6f8931b3b8c43ec379899e407b/grpc-auth-1.23.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-protobuf/1.23.0/1428515d3aca8964dfdc4d4ba912d0fda0f41f2/grpc-protobuf-1.23.0.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-protobuf/1.23.0/5a3f22ee5c29c7d0a81538e6456cb94991136751/grpc-protobuf-1.23.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-protobuf-lite/1.23.0/c030daf2f8c4185ee003e206c38e28987fe2684d/grpc-protobuf-lite-1.23.0.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-protobuf-lite/1.23.0/71a3cd8f301de5270085ff682ef4f6690058b691/grpc-protobuf-lite-1.23.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-api/1.24.1/7bbdb6041e82a741804378160a90a4f41cac696b/grpc-api-1.24.1.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-api/1.24.1/82256fc6c75fe38a4e03f9d358398b07fc2bd047/grpc-api-1.24.1-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java-util/3.10.0/a68c906db83e93babbb4024ce91e7441bb7598dd/protobuf-java-util-3.10.0.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java-util/3.10.0/41a9d1aff6f67dcc3c178505d21ed07d78ac9f1b/protobuf-java-util-3.10.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.opencensus/opencensus-contrib-http-util/0.24.0/6d96406c272d884038eb63b262458df75b5445/opencensus-contrib-http-util-0.24.0.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.opencensus/opencensus-contrib-http-util/0.24.0/bde318fc486d8655159d87cee8dfb2d43be2cf6/opencensus-contrib-http-util-0.24.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/29.0-jre/801142b4c3d0f0770dd29abea50906cacfddd447/guava-29.0-jre.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/29.0-jre/33e6868bc0fcb9b4b493123eeec78d1352934e87/guava-29.0-jre-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/da76ca59f6a57ee3102f8f9bd9cee742973efa8a/slf4j-api-1.7.25.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.25/962153db4a9ea71b79d047dfd1b2a0d80d8f4739/slf4j-api-1.7.25-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1dcf1de382a0bf95a3d8b0849546c88bac1292c9/failureaccess-1.0.1.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.guava/failureaccess/1.0.1/1d064e61aad6c51cc77f9b59dc2cccc78e792f5a/failureaccess-1.0.1-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/b421526c5f297295adef1c886e5246c39d4ac629/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.perfmark/perfmark-api/0.17.0/97e81005e3a7f537366ffdf20e11e050303b58c1/perfmark-api-0.17.0.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.perfmark/perfmark-api/0.17.0/de7f5ee703568965c414179c285232310f6c73c9/perfmark-api-0.17.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/25ea2e8b0c338a877313bd4672d3fe056ea78f0d/jsr305-3.0.2.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.code.findbugs/jsr305/3.0.2/b19b5927c2c25b6c70f093767041e641ae0b1b35/jsr305-3.0.2-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/2.11.1/8c43bf8f99b841d23aadda6044329dad9b63c185/checker-qual-2.11.1.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/org.checkerframework/checker-qual/2.11.1/81dbb91c8dc3c53ae7066ce9e70ed7efb0551261/checker-qual-2.11.1-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.3.4/dac170e4594de319655ffb62f41cbd6dbb5e601e/error_prone_annotations-2.3.4.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.errorprone/error_prone_annotations/2.3.4/950adf6dcd7361e3d1e544a6e13b818587f95d14/error_prone_annotations-2.3.4-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.3/ba035118bc8bac37d7eff77700720999acd9986d/j2objc-annotations-1.3.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.j2objc/j2objc-annotations/1.3/d26c56180205cbb50447c3eca98ecb617cf9f58b/j2objc-annotations-1.3-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.1.45.Final/6f0770e3c00d94e47a9086e2d7870fd69c29c332/netty-codec-http-4.1.45.Final.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec-http/4.1.45.Final/7094624cabd2cb078884decc37f0e75982d6c4bc/netty-codec-http-4.1.45.Final-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.45.Final/51071ba9977cce64e3a58e6f2f6326bbb7e5bc7f/netty-handler-4.1.45.Final.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.netty/netty-handler/4.1.45.Final/69609d245e800256d868cd06f078cd4a1a6fccb2/netty-handler-4.1.45.Final-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.45.Final/8c768728a3e82c3cef62a7a2c8f52ae8d777bac9/netty-codec-4.1.45.Final.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.netty/netty-codec/4.1.45.Final/d71df517152a6270285801d607f6db82ccc4d34d/netty-codec-4.1.45.Final-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.45.Final/b7d8f2645e330bd66cd4f28f155eba605e0c8758/netty-transport-4.1.45.Final.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.netty/netty-transport/4.1.45.Final/aedd9954cb64733da24ea2b5a3a5726d2b9a365d/netty-transport-4.1.45.Final-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.10/7ca2e4276f4ef95e4db725a8cd4a1d1e7585b9e5/httpclient-4.5.10.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpclient/4.5.10/b88c634257720718f33caebc6fc6ec52e4cce190/httpclient-4.5.10-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.opencensus/opencensus-contrib-grpc-metrics/0.21.0/f07d3a325f1fe69ee40d6b409086964edfef4e69/opencensus-contrib-grpc-metrics-0.21.0.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.opencensus/opencensus-contrib-grpc-metrics/0.21.0/526747acfe2def936f115b70909cb23af7cb47/opencensus-contrib-grpc-metrics-0.21.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.opencensus/opencensus-api/0.24.0/f974451b19007ce820f433311ce8adb88e2b7d2c/opencensus-api-0.24.0.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.opencensus/opencensus-api/0.24.0/41c65bc38d0225e9563491fcbe24d3a763450b7e/opencensus-api-0.24.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.3.2/934c04d3cfef185a8008e7bf34331b79730a9d43/javax.annotation-api-1.3.2.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/javax.annotation/javax.annotation-api/1.3.2/65dfd2c47380bf72ec62a5b8c4ceb78a4eda1a53/javax.annotation-api-1.3.2-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.auto.value/auto-value-annotations/1.6.6/9947ae63d8ec42ea159283baf2e5b9c0ff100909/auto-value-annotations-1.6.6.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.auto.value/auto-value-annotations/1.6.6/aaccc9b57791b7338f0dd1ea863e0bf2536a823a/auto-value-annotations-1.6.6-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.auth/google-auth-library-credentials/0.18.0/72d198af6d5288dc09c4031fd7d7d65b07e36b16/google-auth-library-credentials-0.18.0.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.auth/google-auth-library-credentials/0.18.0/c3772a6b0077fd6d1dfbe041b3aa52fd134285ff/google-auth-library-credentials-0.18.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.45.Final/bac54338074540c4f3241a3d92358fad5df89ba/netty-buffer-4.1.45.Final.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.netty/netty-buffer/4.1.45.Final/6d2041dae9b7ead9d5f97e54807f7a9c219b8ba6/netty-buffer-4.1.45.Final-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.45.Final/9e77bdc045d33a570dabf9d53192ea954bb195d7/netty-resolver-4.1.45.Final.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.netty/netty-resolver/4.1.45.Final/b6e22b7945b1dd476470a4ae378ba445518b3994/netty-resolver-4.1.45.Final-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.45.Final/5cf5e448d44ddf53d00f2fc4047c2a7aceaa7087/netty-common-4.1.45.Final.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.netty/netty-common/4.1.45.Final/6190c8fa1c342486ae84168875bf3af7cdc3d1bf/netty-common-4.1.45.Final-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.5/f645ed69d595b24d4cf8b3fbb64cc505bede8829/gson-2.8.5.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.5/c5b4c491aecb72e7c32a78da0b5c6b9cda8dee0f/gson-2.8.5-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.12/21ebaf6d532bc350ba95bd81938fa5f0e511c132/httpcore-4.4.12.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/org.apache.httpcomponents/httpcore/4.4.12/8b6f2545070a53107665c1e390e690a859bd2266/httpcore-4.4.12-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.9.9/bfff5af9fb8347d26bbb7959cb9b4fe9a2b0ca5e/jackson-core-2.9.9.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.9.9/c8a91180aef81d62f44b27cef42bacb168871a4c/jackson-core-2.9.9-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/proto-google-common-protos/1.17.0/40471bf2045151c17da555889b5550fcfd5224a8/proto-google-common-protos-1.17.0.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.api.grpc/proto-google-common-protos/1.17.0/6412bec508c9e38064d5f47024e6ee4de8dc82b6/proto-google-common-protos-1.17.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.10.0/410b61dd0088aab4caa05739558d43df248958c9/protobuf-java-3.10.0.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/3.10.0/3ee94b1a2c1a74d9a27196e39c4bcf8dd0101e70/protobuf-java-3.10.0-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.android/annotations/4.1.1.4/a1678ba907bf92691d879fef34e1a187038f9259/annotations-4.1.1.4.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/com.google.android/annotations/4.1.1.4/deb22daeb37bdcbc14230aeaeddce38320d6d0f9/annotations-4.1.1.4-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/org.threeten/threetenbp/1.3.3/3ea31c96676ff12ab56be0b1af6fff61d1a4f1f2/threetenbp-1.3.3.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/org.threeten/threetenbp/1.3.3/dbca917b92624cc219df74ef5da110f451903511/threetenbp-1.3.3-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-context/1.24.1/77485a74c2553ae0efeefd8917d4b09ccecb0465/grpc-context-1.24.1.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/io.grpc/grpc-context/1.24.1/bd796a3185b1928dde644006f3e8200fdd1ca0c3/grpc-context-1.24.1-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.17/f97ce6decaea32b36101e37979f8b647f00681fb/animal-sniffer-annotations-1.17.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/org.codehaus.mojo/animal-sniffer-annotations/1.17/8fb5b5ad9c9723951b9fccaba5bb657fa6064868/animal-sniffer-annotations-1.17-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/4bfc12adfe4842bf07b657f0369c4cb522955686/commons-logging-1.2.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/commons-logging/commons-logging/1.2/ecf26c7507d67782a3bbd148d170b31dfad001aa/commons-logging-1.2-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.11/3acb4705652e16236558f0f4f2192cc33c3bd189/commons-codec-1.11.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/commons-codec/commons-codec/1.11/bce4ba84fd527950e35040b20a991c63e90e2850/commons-codec-1.11-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.5/6c6c702c89bfff3cd9e80b04d668c5e190d588c6/commons-lang3-3.5.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.5/f7d878153e86a1cdddf6b37850e00a9f8bff726f/commons-lang3-3.5-sources.jar">
+		<attributes>
+			<attribute name="gradle_used_by_scope" value="main,test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/junit/junit/4.13/e49ccba652b735c93bd6e6f59760d8254cf597dd/junit-4.13.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/junit/junit/4.13/d10a9c3acc6c07a5700e37697b5a6b4dcfb8abf9/junit-4.13-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar" sourcepath="C:/Users/gabri/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/1dc37250fbc78e23a65a67fbbaf71d2e9cbc3c0b/hamcrest-core-1.3-sources.jar">
+		<attributes>
+			<attribute name="test" value="true"/>
+			<attribute name="gradle_used_by_scope" value="test"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin/default"/>
+</classpath>
